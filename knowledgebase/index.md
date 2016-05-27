@@ -10,13 +10,11 @@ For instance, last week, I've been asked why it was impossible to install one
 of our Python packages using our local Pypi mirror: the package was not found
 even though it was succesfully uploaded on the mirror.
 
-The reason? The last version of pip (8.0.3) introduces a
-[fix](https://github.com/pypa/pip/commit/8e236dd6a09bd2f70f9d4fc886da8c354d4c58f2)
-to be [PEP 503](https://www.python.org/dev/peps/pep-0503/) compliant. The
-package we wanted to install contains a dot in its name and our local Pypi
-mirror, [Pyshop](https://github.com/mardiros/pyshop) wasn't canonicalizing the
-package name correctly because it wasn't following the PEP. The temporary fix
-was to use pip 8.0.2 until the upgrade of Pyshop.
+The reason? The last version of pip (8.0.3) introduces a [fix][pip fix] to be
+[PEP 503][PEP 503] compliant. The package we wanted to install contains a dot
+in its name and our local Pypi mirror, [Pyshop][pyshop] wasn't canonicalizing
+the package name correctly because it wasn't following the PEP. The temporary
+fix was to use pip 8.0.2 until the upgrade of Pyshop.
 
 To install the package, you only need to know to type `pip install <package
 name>`. But when something goes wrong, you really want to know how pip works,
@@ -34,6 +32,11 @@ solution.
 A problem with [Slumber](slumber)? Knowing it's a library on top of requests,
 which is itself on top of urllib can really be helpful the day you have a
 problem.
+
+
+[pip fix]: https://github.com/pypa/pip/commit/8e236dd6a09bd2f70f9d4fc886da8c354d4c58f2
+[PEP 503]: https://www.python.org/dev/peps/pep-0503/
+[pyshop]: https://github.com/mardiros/pyshop
 
 
 ### Programming
