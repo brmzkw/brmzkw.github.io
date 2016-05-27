@@ -1,0 +1,11 @@
+title: Julien Castets website
+email: castets.j@gmail.com
+description: >
+  Some wordsrabout projects I daily use.
+baseurl: ""
+url: "http://brmzkw.github.io"
+twitter_username: brmzkw
+github_username:  brmzkw
+
+# Build settings
+markdown: kramdown
