@@ -24,10 +24,10 @@ And you know what? It's always the same. You don't know why your SQL request
 returns a bad result? Maybe because your SQLAlchemy relationship has been
 misconfigured because... ... ...
 
-Not knowing how to debug an issue or feeling lost are really frustrating
-situations. To avoid them, knowing at least on surface what does each component
-of your stack helps a lot to give you the direction where to search the
-solution.
+Not knowing how to debug an issue and feeling lost when you face a bug in a
+huge stack where you only really know the highest abstractions is a really
+frustrating situation. To avoid it, knowing at least on surface what each low
+level component does helps a lot.
 
 A problem with [Slumber](slumber)? Knowing it's a library on top of requests,
 which is itself on top of urllib can really be helpful the day you have a
