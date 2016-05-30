@@ -15,7 +15,7 @@ of this list is to explain in a few words our stack to a newcomer.
 
 * [Slumber](slumber)
 * setuptools
-* virtualenv
+* [virtualenv](virtualenv)
 * Flask
 * SQLAlchemy
 * mock
