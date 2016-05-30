@@ -14,6 +14,9 @@ Of course, you don't want to put credentials in your code but rather in a
 The following script creates the database `example.sqlite3` which
 contains some users, and the configuration file `config.cfg` used later.
 
+This script should be run prior to the following examples, and requires
+sqlalchemy to be installed.
+
 ```python
 import sys
 
