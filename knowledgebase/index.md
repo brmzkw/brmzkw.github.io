@@ -34,8 +34,12 @@ of this list is to explain in a few words our stack to a newcomer.
 
 * cgroups, netns
 * LXC
-* BGP
 * Makefile
+
+### Protocols
+
+* [[HTTP] Virtualhosts](https://community.scaleway.com/t/multiple-sub-domains-pointing-to-different-services-on-the-same-server/2534/3?u=jcastets)
+* BGP
 
 
 ### Libraries
